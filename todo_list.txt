@@ -1,0 +1,6 @@
+1. collect 9 pictures;
+
+2. jqery cdn
+
+3. bootstrap cdn     
+

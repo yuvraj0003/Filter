@@ -1,0 +1,154 @@
+body{
+    text-align: center;
+}
+
+/* navbar */
+
+.nbar{
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;;
+    padding: 2%;
+}
+
+.nbar-title{
+    display: flex;
+    align-items: center;
+}
+
+
+/* toggle button */
+
+.nbar-btn{
+    margin-top: 5px;
+    display: none;
+    width: 100px;
+}
+
+.nbar-btn .btn{
+    font-size: 20px;
+    width: 3rem;
+    height: 3rem;
+}
+
+/* list items */
+
+.nbar-lists{
+    margin: 10px;
+    list-style-type: none;
+    display: inline-flex;
+    justify-self: center;
+}
+
+.nbar-items{
+    margin-left: 15px;
+}
+
+.nbar-items:hover{
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.nbar-toggler{
+    padding: 5%;
+}
+
+.nbar-toggle-items{
+    list-style-type:  disc;
+}
+
+.nbar-toggle-items:hover{
+    cursor: pointer;
+    font-weight: 300;
+}
+
+
+/* responsive nav */
+@media screen and (max-width: 990px){
+
+    .nbar-title{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .nbar-items{
+        list-style-type: none;
+        display: none;
+    }
+
+    .nbar-btn{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+   
+
+    .nbar-toggler{
+        text-align: start;
+    }
+    
+
+    .nbar-lists{
+        display: inline-block;
+    }
+
+}
+
+/* content*/
+
+.container-fluid p{
+    padding: 0.5rem;
+
+}
+.column-1 , .column-2{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.food{
+    border: 1px solid black; 
+    width: 20rem;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+
+.food-img{
+    height: 13rem;
+    background-size: 100% 100%;
+    object-fit: fill;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+
+.ms1-image{
+    background-image: url("ms1.jpg");
+
+}
+.ms2-image{
+    background-image: url("ms2.jpg");
+
+}
+.pizza1-image{
+    background-image: url("pizza1.jpg");
+
+}
+.pizza2-image{
+    background-image: url("pizza2.jpg");
+
+}
+.cupcake1-image{
+    background-image: url("cupcake1.jpg");
+    
+
+}
+.cupcake2-image{
+    background-image: url("cupcake2.jpg");
+
+}
+
+.btn{
+    /* width: 100%; */
+    margin: 5%;
+}
